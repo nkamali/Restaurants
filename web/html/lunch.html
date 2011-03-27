@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Lunch roulette</title>
+        <script type="text/javascript" src="/scripts/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="/scripts/lunch.js"></script>
+        <link type="text/css" href="/css/lunch.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <h1>Lunch roulette application</h1>
+        <p id="#error"><span></span></p>
+        <p>Click the Spin button to choose one of the restaurants from the list below</p>
+        <table border="1" cellpadding="2" cellspacing="2">
+            <tr>
+                <th>Restaurant</th><th>Rating</th>
+            </tr>
+            <tr id="placeholder_row">
+                <td class="name_cell">Placeholder name</td><td class="rating_cell">*</td>
+            </tr>
+        </table>
+        <p><input type="button" name="spin" value="Spin"></p>
+        <p>Chosen restaurant appears below</p>
+        <p>
+            <strong>Name:</strong> <span id="pick_name">Placeholder name</span>
+        </p>
+        <p>
+            <strong>Rating:</strong> <span id="pick_rating">Placeholder rating</span>
+        </p>
+    </body>
+</html>

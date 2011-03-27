@@ -1,0 +1,41 @@
+/**
+ * Place any CSS you like here
+ */
+body {
+		background: #f5f5dc url(../images/background.jpg) repeat 0px 0px fixed;
+		text-align:center;
+		width: 500px;
+		margin: 30px auto;
+		font-family: Gill Sans, Verdana;
+		line-height: 14px;
+}
+.name_cell {}
+.rating_cell {}
+
+h1 {
+	text-transform:capitalize;
+	font-size: 2em;
+}
+
+#pick_name, #pick_rating { 
+	color:green; 
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+table {
+	margin:0 auto;
+	font-size:1.5em;
+	border-collapse:collapse;
+}
+
+table, th, tr {
+	border:1px solid green;
+}
+
+th {
+	background-color:green;
+	color:white;
+}
+
+
